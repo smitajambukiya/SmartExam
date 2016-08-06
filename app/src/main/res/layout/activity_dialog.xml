@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_marginLeft="5dp"
+            android:text="@string/str_answered"
+            android:textAllCaps="false" />
+
+        <include layout="@layout/activity_view"></include>
+
+        <com.smartexam.germanium.smartexam.utill.Helper
+            android:id="@+id/gridAnswerd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="2dp"
+            android:isScrollContainer="false"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp">
+
+        </com.smartexam.germanium.smartexam.utill.Helper>
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_marginLeft="5dp"
+            android:text="@string/str_notanswered"
+            android:textAllCaps="false" />
+
+        <include layout="@layout/activity_view"></include>
+
+        <com.smartexam.germanium.smartexam.utill.Helper
+            android:id="@+id/gridNotAnswerd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="2dp"
+            android:isScrollContainer="false"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp">
+
+        </com.smartexam.germanium.smartexam.utill.Helper>
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_marginLeft="5dp"
+            android:text="@string/str_marked"
+            android:textAllCaps="false" />
+
+        <include layout="@layout/activity_view"></include>
+
+        <com.smartexam.germanium.smartexam.utill.Helper
+            android:id="@+id/gridMarked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="2dp"
+            android:isScrollContainer="false"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp">
+
+        </com.smartexam.germanium.smartexam.utill.Helper>
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_marginLeft="5dp"
+            android:text="@string/str_not"
+            android:textAllCaps="false" />
+
+        <include layout="@layout/activity_view"></include>
+
+        <com.smartexam.germanium.smartexam.utill.Helper
+            android:id="@+id/gridNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="2dp"
+            android:isScrollContainer="false"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp">
+
+        </com.smartexam.germanium.smartexam.utill.Helper>
+
+
+    </LinearLayout>
+
+</ScrollView>

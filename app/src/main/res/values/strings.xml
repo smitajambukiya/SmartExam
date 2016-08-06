@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Smart Exam</string>
+
+    <!--Login Screen-->
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="textsignup">Sign Up</string>
+    <string name="textPrivacy">Terms and Condition</string>
+
+    <string name="nav1">Dashboard</string>
+    <string name="nav2">Quiz</string>
+    <string name="nav3">Quiz History</string>
+    <string name="nav4">Setting</string>
+    <string name="nav5">About</string>
+
+    <string name="exam">Exam Anaylysis</string>
+
+    <string name="stredit">Edit Profile</string>
+    <string name="strchane">Change Password</string>
+    <string name="strshare">Invite Friends</string>
+    <string name="strlogout">Logout</string>
+
+    <string-array name="arrayStandatrd">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Diploma</item>
+        <item>ITI</item>
+        <item>Degree</item>
+        <item>UPSC</item>
+        <item>GPSC</item>
+
+    </string-array>
+
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="review">Review</string>
+    <string name="finish">Submit</string>
+
+
+    <string name="label_your_name">Name</string>
+    <string name="hint_your_name">e.g. Larry</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_email">Optional</string>
+
+
+    <string name="submit_confirm_message">Are you sure to submit ?</string>
+    <string name="submit_confirm_button">Submit</string>
+
+    <string name="str_answered">Answered</string>
+    <string name="str_notanswered">Not Answered</string>
+    <string name="str_marked">Marked</string>
+    <string name="str_not">Not Visited</string>
+    <string name="strCounter">50:00</string>
+    <string name="strsub">Science [English]</string>
+    <string name="strexam">Start Exam</string>
+    <string name="strins">General Instruction</string>
+    <string name="strread">Please read the following instructions carefully</string>
+    <string name="str1">1.Total of 40 minutes duration will be given to attempt all the questions. And there a penalty of minus 0 marks for each wrong answer.</string>
+    <string name="str2">2.The clock has been set at the server and the countdown timer at the top right corner of your screen will display the time remaining for you to complete the exam. When the clock runs out the exam ends by default - you are not required to end or submit your exam.</string>
+    <string name="str3">3.The question palette at the right of screen shows one of the following statuses of each of the questions numbered: </string>
+
+
+    <string name="strinstruction">The mobile provided to me is in proper working condition. I have read and understood the instructions given above.</string>
+
+    <string name="green">You have answered the question.</string>
+    <string name="blue">You have not visited the question yet.</string>
+    <string name="red">You have not answered the question.</string>
+    <string name="orange">You have answered the question but have marked the question for review.</string>
+    <string name="profile">Profile Details</string>
+    <string name="fill">Fill the information</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="strold">Old Password</string>
+    <string name="strnew">New Password</string>
+    <string name="strconfirm">Confirm Password</string>
+    <string name="strsubmit">Submit</string>
+
+</resources>

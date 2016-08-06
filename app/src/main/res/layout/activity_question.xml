@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"></include>
+
+    <com.smartexam.germanium.smartexam.utill.CustomHorizotalScrollView
+        android:id="@+id/hsvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+    </com.smartexam.germanium.smartexam.utill.CustomHorizotalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:gravity="center">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/prev_button"
+            style="@style/ButtonBarButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/linear2"
+            android:onClick="clickPrev"
+            android:text="@string/prev" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/buton_rev"
+            style="@style/ButtonBarButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/linear1"
+            android:onClick="clickRev"
+            android:text="@string/review" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/ButtonBarButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/linear3"
+            android:onClick="clickNext"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</LinearLayout>

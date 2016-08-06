@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_192sdp"
+    android:background="#E3C85D"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_weight="0.02"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/ivLeftProfile"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:src="@drawable/ic_cont" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLeftUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:text="Pratap Solanki , std : 10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

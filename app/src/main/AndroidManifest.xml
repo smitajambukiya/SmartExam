@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartexam.germanium.smartexam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/login"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavActivity"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/stredit"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".ExamChartActivity"
+            android:label="@string/exam"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".QuizActivity"
+            android:label="@string/nav2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".Qustionary"
+            android:label="@string/strsub"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".InstructionActivity"
+            android:label="@string/strins"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".ForgotActivity"
+            android:label="@string/forgot"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="@string/strchane"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"></activity>
+    </application>
+
+</manifest>

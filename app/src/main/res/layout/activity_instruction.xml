@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="75"
+
+            android:gravity="center">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_page"
+                        style="@style/MyTextViewStyle"
+                        android:singleLine="false"
+                        android:text="@string/strread"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        style="@style/MyTextViewStyle"
+                        android:padding="5dp"
+                        android:singleLine="false"
+                        android:text="@string/str1"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        style="@style/MyTextViewStyle"
+                        android:padding="5dp"
+                        android:singleLine="false"
+                        android:text="@string/str2"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        style="@style/MyTextViewStyle"
+                        android:padding="5dp"
+                        android:singleLine="false"
+                        android:text="@string/str3"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="25"
+                                android:gravity="center">
+
+                                <Button
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/round_1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="75"
+                                android:gravity="center|left">
+
+                                <TextView
+                                    style="@style/MyTextViewStyle"
+                                    android:padding="1dp"
+                                    android:singleLine="false"
+                                    android:text="@string/green"
+                                    android:textAllCaps="false"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="25"
+                                android:gravity="center">
+
+                                <Button
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/round_2" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="75"
+                                android:gravity="center|left">
+
+                                <TextView
+                                    style="@style/MyTextViewStyle"
+                                    android:padding="1dp"
+                                    android:singleLine="false"
+                                    android:text="@string/red"
+                                    android:textAllCaps="false"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp"
+                                    android:id="@+id/textView9" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="25"
+                                android:gravity="center">
+
+                                <Button
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/round_3" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="75"
+                                android:gravity="center|left">
+
+                                <TextView
+                                    style="@style/MyTextViewStyle"
+                                    android:padding="1dp"
+                                    android:singleLine="false"
+                                    android:text="@string/orange"
+                                    android:textAllCaps="false"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="25"
+                                android:gravity="center">
+
+                                <Button
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/round_4" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="75"
+                                android:gravity="center|left">
+
+                                <TextView
+                                    style="@style/MyTextViewStyle"
+                                    android:padding="1dp"
+                                    android:singleLine="false"
+                                    android:text="@string/blue"
+                                    android:textAllCaps="false"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:background="#E3C85D"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strinstruction"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_yellow_selector"
+                android:onClick="btnStart"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/strexam"
+                android:textAllCaps="false"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
